@@ -1,0 +1,99 @@
+@media only  screen and (max-width:1425px){
+    .container{
+        padding:16px 3%;
+        transition: .3s
+    }
+.wrapper{
+    padding: 70px 3%;
+    min-height: 10vh;
+    }
+    :root{
+        --big-font:4rem;
+        --h2-font:2.3rem;
+        --p-font:1rem;
+        transition: .3s;
+
+
+    }
+}
+@media (max-width: 970px){
+
+#myTopnav{
+    display:block;
+}
+
+}
+.navItems{
+    position: absolute;
+top: 100%;
+    left:0;
+    right: 0;
+
+    background: var(--main-color);
+    text-align: right;
+    transition: all .40s;
+}
+.navItems a{
+    display: block;
+    padding:1.2rem;
+    margin: 1.5rem;;
+    border-right: 2px solid var(--bg-color);
+
+}
+.navItems a:hover{
+    background:var(--bg-color);
+    color:var(--main-color);
+}
+.navItems a::after{
+    display: none;
+}
+
+@media (max-width: 800px){
+
+h1{
+    font-size: 35px;
+}  
+.toggle-btn i{
+    display: block;
+}
+.topnav {
+    background: hsl(0, 6%, 82%);
+    height:40vh;
+    display: none;
+    line-height: 10px;
+    
+}
+.container{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+   
+}
+
+.topnav ul{
+    flex-direction: column;
+}
+.navItems ul li{
+    margin-top: 20%;
+}
+ .wrapper{
+   
+    margin-top: 120px;
+    flex-direction: column;
+   
+}
+
+.wrapper .cols{
+    padding: 20px;
+}
+.wrapper .cols1 imgBox{
+max-width: 90%;
+}
+
+.wrapper .btns{
+    left: -55px;
+}
+
+
+
+}
